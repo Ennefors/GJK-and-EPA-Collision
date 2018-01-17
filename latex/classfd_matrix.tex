@@ -1,0 +1,321 @@
+\hypertarget{classfd_matrix}{}\section{fd\+Matrix Class Reference}
+\label{classfd_matrix}\index{fd\+Matrix@{fd\+Matrix}}
+
+
+{\ttfamily \#include $<$td\+Math\+Lib\+New.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classfd_matrix_a4e97779c76db0686a11102353b0ed015}{fd\+Matrix} (void)
+\item 
+\hyperlink{classfd_matrix_a53237656ab43ee457035cefc442ef568}{fd\+Matrix} (float one, float two, float thr, float fou, float fiv, float six, float sev, float eig, float nin, float ten, float ele, float twe, float thi, float fot, float fif, float sit)
+\item 
+\hyperlink{classfd_matrix_aeaeab2c9d844bcbe721c2dba9f6c0b9d}{fd\+Matrix} (const \hyperlink{classfd_matrix}{fd\+Matrix} \&copy)
+\item 
+float \hyperlink{classfd_matrix_adc766258b224549bfa242acd2b83b1fd}{get\+\_\+\+Element} (int row, int col)
+\item 
+float \& \hyperlink{classfd_matrix_a523606adda02a993fd940d6fc4a1a0a2}{get\+\_\+\+Mat} ()
+\item 
+void \hyperlink{classfd_matrix_a8036052328d87b7b5af3c1e9ddbe3a6b}{set\+\_\+\+Element} (int row, int col, float ele)
+\item 
+void \hyperlink{classfd_matrix_a1e45875cef8577b3165990336095e92c}{set\+\_\+\+Row} (int row, float l, float ml, float mr, float r)
+\item 
+void \hyperlink{classfd_matrix_a28f9ba15893b5b8b4571819c1135f44a}{set\+\_\+\+Col} (int col, float t, float mt, float mb, float b)
+\item 
+void \hyperlink{classfd_matrix_a7972da65e7020b48329e20a7f9e2436e}{set\+\_\+\+Mat} (float one, float two, float thr, float fou, float fiv, float six, float sev, float eig, float nin, float ten, float ele, float twe, float thi, float fot, float fif, float sit)
+\item 
+void \hyperlink{classfd_matrix_a5bddd54d329db322915dc2303fda2dde}{set\+\_\+\+Position} (float x, float y, float z)
+\item 
+\hyperlink{classfd_matrix}{fd\+Matrix} \hyperlink{classfd_matrix_a8da66a008b9eb84778017cd35232d17f}{make\+\_\+\+Tran} ()
+\item 
+void \hyperlink{classfd_matrix_a7bcd04441070be5ba144dc58b88947bc}{translation\+\_\+\+Mat} (\hyperlink{classfd_vector}{fd\+Vector} v)
+\item 
+void \hyperlink{classfd_matrix_a65bc1f60c320690dd6b65a27b516c8f0}{print\+Mat} ()
+\item 
+\hyperlink{classfd_vector}{fd\+Vector} \hyperlink{classfd_matrix_af043c14d7fbe5f0e7b34e621719f7fed}{trans\+\_\+td\+Vector} (\hyperlink{classfd_vector}{fd\+Vector} v)
+\item 
+void \hyperlink{classfd_matrix_aeae2bebcd762033ea77cbe12d4fb2354}{set\+\_\+\+RotationX} (float x)
+\item 
+void \hyperlink{classfd_matrix_ac219a2f9fb42b0d7265bc47f18e1e748}{set\+\_\+\+RotationY} (float y)
+\item 
+void \hyperlink{classfd_matrix_a17251b926dd6ae66fc367b0fdf162774}{set\+\_\+\+RotationZ} (float z)
+\item 
+void \hyperlink{classfd_matrix_af2581305baad7d1e9eb25d3ac1c457b6}{set\+\_\+\+Rotation} (\hyperlink{classfd_vector}{fd\+Vector} v, float d)
+\item 
+\hyperlink{classfd_vector}{fd\+Vector} \hyperlink{classfd_matrix_af955a03dc22bb94e5541f7d1ce52bb15}{get\+\_\+\+Position} ()
+\item 
+\hyperlink{classfd_matrix}{fd\+Matrix} \hyperlink{classfd_matrix_a833472cadd1c6a9caac01741ad5ab9f6}{makeminverse} (\hyperlink{classfd_matrix}{fd\+Matrix} mat)
+\item 
+\hyperlink{classfd_matrix}{fd\+Matrix} \& \hyperlink{classfd_matrix_a5452efb88f91f98a5cd80ce8e394c3f6}{operator$\ast$} (\hyperlink{classfd_matrix}{fd\+Matrix} \&mat)
+\item 
+\hyperlink{classfd_matrix}{fd\+Matrix} \& \hyperlink{classfd_matrix_a9bd773f3db300618603c63e54b2bb43d}{operator=} (const \hyperlink{classfd_matrix}{fd\+Matrix} \&mat)
+\item 
+float $\ast$ \hyperlink{classfd_matrix_af1431514b36a3949f2e8ac58c8a79466}{operator\mbox{[}$\,$\mbox{]}} (int val)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{classfd_matrix_aef4a5dc37e53c1e5a2b5f811ba675c93}{fd\+Mat} \mbox{[}4\mbox{]}\mbox{[}4\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 205 of file td\+Math\+Lib\+New.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classfd_matrix_a4e97779c76db0686a11102353b0ed015}{}\label{classfd_matrix_a4e97779c76db0686a11102353b0ed015} 
+\index{fd\+Matrix@{fd\+Matrix}!fd\+Matrix@{fd\+Matrix}}
+\index{fd\+Matrix@{fd\+Matrix}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{fd\+Matrix()}{fdMatrix()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily fd\+Matrix\+::fd\+Matrix (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 213 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_a53237656ab43ee457035cefc442ef568}{}\label{classfd_matrix_a53237656ab43ee457035cefc442ef568} 
+\index{fd\+Matrix@{fd\+Matrix}!fd\+Matrix@{fd\+Matrix}}
+\index{fd\+Matrix@{fd\+Matrix}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{fd\+Matrix()}{fdMatrix()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily fd\+Matrix\+::fd\+Matrix (\begin{DoxyParamCaption}\item[{float}]{one,  }\item[{float}]{two,  }\item[{float}]{thr,  }\item[{float}]{fou,  }\item[{float}]{fiv,  }\item[{float}]{six,  }\item[{float}]{sev,  }\item[{float}]{eig,  }\item[{float}]{nin,  }\item[{float}]{ten,  }\item[{float}]{ele,  }\item[{float}]{twe,  }\item[{float}]{thi,  }\item[{float}]{fot,  }\item[{float}]{fif,  }\item[{float}]{sit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 226 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_aeaeab2c9d844bcbe721c2dba9f6c0b9d}{}\label{classfd_matrix_aeaeab2c9d844bcbe721c2dba9f6c0b9d} 
+\index{fd\+Matrix@{fd\+Matrix}!fd\+Matrix@{fd\+Matrix}}
+\index{fd\+Matrix@{fd\+Matrix}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{fd\+Matrix()}{fdMatrix()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily fd\+Matrix\+::fd\+Matrix (\begin{DoxyParamCaption}\item[{const \hyperlink{classfd_matrix}{fd\+Matrix} \&}]{copy }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 246 of file td\+Math\+Lib\+New.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classfd_matrix_adc766258b224549bfa242acd2b83b1fd}{}\label{classfd_matrix_adc766258b224549bfa242acd2b83b1fd} 
+\index{fd\+Matrix@{fd\+Matrix}!get\+\_\+\+Element@{get\+\_\+\+Element}}
+\index{get\+\_\+\+Element@{get\+\_\+\+Element}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{get\+\_\+\+Element()}{get\_Element()}}
+{\footnotesize\ttfamily float fd\+Matrix\+::get\+\_\+\+Element (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{col }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 266 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_a523606adda02a993fd940d6fc4a1a0a2}{}\label{classfd_matrix_a523606adda02a993fd940d6fc4a1a0a2} 
+\index{fd\+Matrix@{fd\+Matrix}!get\+\_\+\+Mat@{get\+\_\+\+Mat}}
+\index{get\+\_\+\+Mat@{get\+\_\+\+Mat}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{get\+\_\+\+Mat()}{get\_Mat()}}
+{\footnotesize\ttfamily float\& fd\+Matrix\+::get\+\_\+\+Mat (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 276 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_af955a03dc22bb94e5541f7d1ce52bb15}{}\label{classfd_matrix_af955a03dc22bb94e5541f7d1ce52bb15} 
+\index{fd\+Matrix@{fd\+Matrix}!get\+\_\+\+Position@{get\+\_\+\+Position}}
+\index{get\+\_\+\+Position@{get\+\_\+\+Position}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{get\+\_\+\+Position()}{get\_Position()}}
+{\footnotesize\ttfamily \hyperlink{classfd_vector}{fd\+Vector} fd\+Matrix\+::get\+\_\+\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 455 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_a8da66a008b9eb84778017cd35232d17f}{}\label{classfd_matrix_a8da66a008b9eb84778017cd35232d17f} 
+\index{fd\+Matrix@{fd\+Matrix}!make\+\_\+\+Tran@{make\+\_\+\+Tran}}
+\index{make\+\_\+\+Tran@{make\+\_\+\+Tran}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{make\+\_\+\+Tran()}{make\_Tran()}}
+{\footnotesize\ttfamily \hyperlink{classfd_matrix}{fd\+Matrix} fd\+Matrix\+::make\+\_\+\+Tran (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 355 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_a833472cadd1c6a9caac01741ad5ab9f6}{}\label{classfd_matrix_a833472cadd1c6a9caac01741ad5ab9f6} 
+\index{fd\+Matrix@{fd\+Matrix}!makeminverse@{makeminverse}}
+\index{makeminverse@{makeminverse}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{makeminverse()}{makeminverse()}}
+{\footnotesize\ttfamily \hyperlink{classfd_matrix}{fd\+Matrix} fd\+Matrix\+::makeminverse (\begin{DoxyParamCaption}\item[{\hyperlink{classfd_matrix}{fd\+Matrix}}]{mat }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 461 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_a5452efb88f91f98a5cd80ce8e394c3f6}{}\label{classfd_matrix_a5452efb88f91f98a5cd80ce8e394c3f6} 
+\index{fd\+Matrix@{fd\+Matrix}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}}
+{\footnotesize\ttfamily \hyperlink{classfd_matrix}{fd\+Matrix}\& fd\+Matrix\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{\hyperlink{classfd_matrix}{fd\+Matrix} \&}]{mat }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 618 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_a9bd773f3db300618603c63e54b2bb43d}{}\label{classfd_matrix_a9bd773f3db300618603c63e54b2bb43d} 
+\index{fd\+Matrix@{fd\+Matrix}!operator=@{operator=}}
+\index{operator=@{operator=}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \hyperlink{classfd_matrix}{fd\+Matrix}\& fd\+Matrix\+::operator= (\begin{DoxyParamCaption}\item[{const \hyperlink{classfd_matrix}{fd\+Matrix} \&}]{mat }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 640 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_af1431514b36a3949f2e8ac58c8a79466}{}\label{classfd_matrix_af1431514b36a3949f2e8ac58c8a79466} 
+\index{fd\+Matrix@{fd\+Matrix}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily float$\ast$ fd\+Matrix\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{int}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 653 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_a65bc1f60c320690dd6b65a27b516c8f0}{}\label{classfd_matrix_a65bc1f60c320690dd6b65a27b516c8f0} 
+\index{fd\+Matrix@{fd\+Matrix}!print\+Mat@{print\+Mat}}
+\index{print\+Mat@{print\+Mat}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{print\+Mat()}{printMat()}}
+{\footnotesize\ttfamily void fd\+Matrix\+::print\+Mat (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 380 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_a28f9ba15893b5b8b4571819c1135f44a}{}\label{classfd_matrix_a28f9ba15893b5b8b4571819c1135f44a} 
+\index{fd\+Matrix@{fd\+Matrix}!set\+\_\+\+Col@{set\+\_\+\+Col}}
+\index{set\+\_\+\+Col@{set\+\_\+\+Col}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{set\+\_\+\+Col()}{set\_Col()}}
+{\footnotesize\ttfamily void fd\+Matrix\+::set\+\_\+\+Col (\begin{DoxyParamCaption}\item[{int}]{col,  }\item[{float}]{t,  }\item[{float}]{mt,  }\item[{float}]{mb,  }\item[{float}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 313 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_a8036052328d87b7b5af3c1e9ddbe3a6b}{}\label{classfd_matrix_a8036052328d87b7b5af3c1e9ddbe3a6b} 
+\index{fd\+Matrix@{fd\+Matrix}!set\+\_\+\+Element@{set\+\_\+\+Element}}
+\index{set\+\_\+\+Element@{set\+\_\+\+Element}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{set\+\_\+\+Element()}{set\_Element()}}
+{\footnotesize\ttfamily void fd\+Matrix\+::set\+\_\+\+Element (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{col,  }\item[{float}]{ele }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 292 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_a7972da65e7020b48329e20a7f9e2436e}{}\label{classfd_matrix_a7972da65e7020b48329e20a7f9e2436e} 
+\index{fd\+Matrix@{fd\+Matrix}!set\+\_\+\+Mat@{set\+\_\+\+Mat}}
+\index{set\+\_\+\+Mat@{set\+\_\+\+Mat}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{set\+\_\+\+Mat()}{set\_Mat()}}
+{\footnotesize\ttfamily void fd\+Matrix\+::set\+\_\+\+Mat (\begin{DoxyParamCaption}\item[{float}]{one,  }\item[{float}]{two,  }\item[{float}]{thr,  }\item[{float}]{fou,  }\item[{float}]{fiv,  }\item[{float}]{six,  }\item[{float}]{sev,  }\item[{float}]{eig,  }\item[{float}]{nin,  }\item[{float}]{ten,  }\item[{float}]{ele,  }\item[{float}]{twe,  }\item[{float}]{thi,  }\item[{float}]{fot,  }\item[{float}]{fif,  }\item[{float}]{sit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 325 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_a5bddd54d329db322915dc2303fda2dde}{}\label{classfd_matrix_a5bddd54d329db322915dc2303fda2dde} 
+\index{fd\+Matrix@{fd\+Matrix}!set\+\_\+\+Position@{set\+\_\+\+Position}}
+\index{set\+\_\+\+Position@{set\+\_\+\+Position}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{set\+\_\+\+Position()}{set\_Position()}}
+{\footnotesize\ttfamily void fd\+Matrix\+::set\+\_\+\+Position (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{float}]{z }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 348 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_af2581305baad7d1e9eb25d3ac1c457b6}{}\label{classfd_matrix_af2581305baad7d1e9eb25d3ac1c457b6} 
+\index{fd\+Matrix@{fd\+Matrix}!set\+\_\+\+Rotation@{set\+\_\+\+Rotation}}
+\index{set\+\_\+\+Rotation@{set\+\_\+\+Rotation}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{set\+\_\+\+Rotation()}{set\_Rotation()}}
+{\footnotesize\ttfamily void fd\+Matrix\+::set\+\_\+\+Rotation (\begin{DoxyParamCaption}\item[{\hyperlink{classfd_vector}{fd\+Vector}}]{v,  }\item[{float}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 435 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_aeae2bebcd762033ea77cbe12d4fb2354}{}\label{classfd_matrix_aeae2bebcd762033ea77cbe12d4fb2354} 
+\index{fd\+Matrix@{fd\+Matrix}!set\+\_\+\+RotationX@{set\+\_\+\+RotationX}}
+\index{set\+\_\+\+RotationX@{set\+\_\+\+RotationX}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{set\+\_\+\+Rotation\+X()}{set\_RotationX()}}
+{\footnotesize\ttfamily void fd\+Matrix\+::set\+\_\+\+RotationX (\begin{DoxyParamCaption}\item[{float}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 405 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_ac219a2f9fb42b0d7265bc47f18e1e748}{}\label{classfd_matrix_ac219a2f9fb42b0d7265bc47f18e1e748} 
+\index{fd\+Matrix@{fd\+Matrix}!set\+\_\+\+RotationY@{set\+\_\+\+RotationY}}
+\index{set\+\_\+\+RotationY@{set\+\_\+\+RotationY}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{set\+\_\+\+Rotation\+Y()}{set\_RotationY()}}
+{\footnotesize\ttfamily void fd\+Matrix\+::set\+\_\+\+RotationY (\begin{DoxyParamCaption}\item[{float}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 415 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_a17251b926dd6ae66fc367b0fdf162774}{}\label{classfd_matrix_a17251b926dd6ae66fc367b0fdf162774} 
+\index{fd\+Matrix@{fd\+Matrix}!set\+\_\+\+RotationZ@{set\+\_\+\+RotationZ}}
+\index{set\+\_\+\+RotationZ@{set\+\_\+\+RotationZ}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{set\+\_\+\+Rotation\+Z()}{set\_RotationZ()}}
+{\footnotesize\ttfamily void fd\+Matrix\+::set\+\_\+\+RotationZ (\begin{DoxyParamCaption}\item[{float}]{z }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 425 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_a1e45875cef8577b3165990336095e92c}{}\label{classfd_matrix_a1e45875cef8577b3165990336095e92c} 
+\index{fd\+Matrix@{fd\+Matrix}!set\+\_\+\+Row@{set\+\_\+\+Row}}
+\index{set\+\_\+\+Row@{set\+\_\+\+Row}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{set\+\_\+\+Row()}{set\_Row()}}
+{\footnotesize\ttfamily void fd\+Matrix\+::set\+\_\+\+Row (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{float}]{l,  }\item[{float}]{ml,  }\item[{float}]{mr,  }\item[{float}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 301 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_af043c14d7fbe5f0e7b34e621719f7fed}{}\label{classfd_matrix_af043c14d7fbe5f0e7b34e621719f7fed} 
+\index{fd\+Matrix@{fd\+Matrix}!trans\+\_\+td\+Vector@{trans\+\_\+td\+Vector}}
+\index{trans\+\_\+td\+Vector@{trans\+\_\+td\+Vector}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{trans\+\_\+td\+Vector()}{trans\_tdVector()}}
+{\footnotesize\ttfamily \hyperlink{classfd_vector}{fd\+Vector} fd\+Matrix\+::trans\+\_\+td\+Vector (\begin{DoxyParamCaption}\item[{\hyperlink{classfd_vector}{fd\+Vector}}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 390 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_matrix_a7bcd04441070be5ba144dc58b88947bc}{}\label{classfd_matrix_a7bcd04441070be5ba144dc58b88947bc} 
+\index{fd\+Matrix@{fd\+Matrix}!translation\+\_\+\+Mat@{translation\+\_\+\+Mat}}
+\index{translation\+\_\+\+Mat@{translation\+\_\+\+Mat}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{translation\+\_\+\+Mat()}{translation\_Mat()}}
+{\footnotesize\ttfamily void fd\+Matrix\+::translation\+\_\+\+Mat (\begin{DoxyParamCaption}\item[{\hyperlink{classfd_vector}{fd\+Vector}}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 373 of file td\+Math\+Lib\+New.\+h.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classfd_matrix_aef4a5dc37e53c1e5a2b5f811ba675c93}{}\label{classfd_matrix_aef4a5dc37e53c1e5a2b5f811ba675c93} 
+\index{fd\+Matrix@{fd\+Matrix}!fd\+Mat@{fd\+Mat}}
+\index{fd\+Mat@{fd\+Mat}!fd\+Matrix@{fd\+Matrix}}
+\subsubsection{\texorpdfstring{fd\+Mat}{fdMat}}
+{\footnotesize\ttfamily float fd\+Matrix\+::fd\+Mat\mbox{[}4\mbox{]}\mbox{[}4\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 208 of file td\+Math\+Lib\+New.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+G\+D15/wilenn-\/5/\+S0006\+E/lab-\/env-\/master/projects/\+Mathlib/code/\hyperlink{td_math_lib_new_8h}{td\+Math\+Lib\+New.\+h}\end{DoxyCompactItemize}

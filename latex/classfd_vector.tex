@@ -1,0 +1,385 @@
+\hypertarget{classfd_vector}{}\section{fd\+Vector Class Reference}
+\label{classfd_vector}\index{fd\+Vector@{fd\+Vector}}
+
+
+{\ttfamily \#include $<$td\+Math\+Lib\+New.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classfd_vector_ae193285f8bf5e0243f4cbdaca41f8e07}{fd\+Vector} ()
+\item 
+\hyperlink{classfd_vector_a1223fe25ab0e876d0bedf51a4c8d4ede}{fd\+Vector} (float x, float y, float z)
+\item 
+\hyperlink{classfd_vector_a8e96515d4ae35ed6c51f5e4c930c20a9}{fd\+Vector} (float x, float y, float z, float w)
+\item 
+\hyperlink{classfd_vector_a738c19c1aa5328b8a6f5c62abbc9b134}{fd\+Vector} (const \hyperlink{classfd_vector}{fd\+Vector} \&v)
+\item 
+void \hyperlink{classfd_vector_ae72b4bb9c74c1253854a222b34760ece}{set\+\_\+\+Vector} (float x, float y, float z, float w)
+\item 
+void \hyperlink{classfd_vector_abfb903efd118f8e79eefa6a3563e108f}{set\+\_\+\+Vector} (float x, float y, float z)
+\item 
+void \hyperlink{classfd_vector_a96a3763b89af618c024743dc9e681b12}{set\+\_\+X} (float x)
+\item 
+void \hyperlink{classfd_vector_a8002af4ee4ec47da912555488528679c}{set\+\_\+Y} (float y)
+\item 
+void \hyperlink{classfd_vector_a058f0e9306b534430b12fd692f6b0345}{set\+\_\+Z} (float z)
+\item 
+void \hyperlink{classfd_vector_a700e29b9a1e0a872bbb1c41480522962}{set\+\_\+W} (float w)
+\item 
+string \hyperlink{classfd_vector_adceaf088e11b897bcd45dbb405b50c71}{get\+\_\+\+Vector} ()
+\item 
+float \hyperlink{classfd_vector_ad1cd812db0a8076ec4fa135d12695e96}{get\+\_\+X} () const
+\item 
+float \hyperlink{classfd_vector_af0d8177ae244369991268b35afcbac9e}{get\+\_\+Y} () const
+\item 
+float \hyperlink{classfd_vector_afe07c9988db316dcc52e1115f82814dd}{get\+\_\+Z} () const
+\item 
+float \hyperlink{classfd_vector_a485db25930d37bead80a7e655b7b5767}{get\+\_\+W} () const
+\item 
+\hyperlink{classfd_vector}{fd\+Vector} \hyperlink{classfd_vector_a1b4b5c5a72a619525b6f2e737f56a32d}{add} (\hyperlink{classfd_vector}{fd\+Vector} addV)
+\item 
+\hyperlink{classfd_vector}{fd\+Vector} \hyperlink{classfd_vector_a93366497e312aa48a3e68cbab7996e7e}{sub} (\hyperlink{classfd_vector}{fd\+Vector} subV)
+\item 
+float \hyperlink{classfd_vector_abc99ed1ae023f50e3ef820ea22aa9eb1}{dot} (\hyperlink{classfd_vector}{fd\+Vector} dotV)
+\item 
+float \hyperlink{classfd_vector_aa87e134a74c0aedc1ce1b132b577702a}{length} ()
+\item 
+\hyperlink{classfd_vector}{fd\+Vector} \hyperlink{classfd_vector_af4c862ad62c5f1bd67d0fe808505e5c4}{normalize} () const
+\item 
+bool \hyperlink{classfd_vector_a860bf648b8f3c0ad6156cd28eb60c952}{equalV} (\hyperlink{classfd_vector}{fd\+Vector} compV)
+\item 
+\hyperlink{classfd_vector}{fd\+Vector} \hyperlink{classfd_vector_ad7efb00d2b8d61e54f1feb316bed83dc}{operator+} (const \hyperlink{classfd_vector}{fd\+Vector} \&v)
+\item 
+\hyperlink{classfd_vector}{fd\+Vector} \hyperlink{classfd_vector_a56bd82af8de4d77c772353ddafc3aa84}{operator-\/} (const \hyperlink{classfd_vector}{fd\+Vector} \&v)
+\item 
+\hyperlink{classfd_vector}{fd\+Vector} \& \hyperlink{classfd_vector_ad77d444cdd3c76f98b6c51e2bb2d4737}{operator=} (const \hyperlink{classfd_vector}{fd\+Vector} v)
+\item 
+float \hyperlink{classfd_vector_ac139bb822f7ffbfbcb0391d1fe88387e}{operator$\ast$} (const \hyperlink{classfd_vector}{fd\+Vector} \&v)
+\item 
+\hyperlink{classfd_vector}{fd\+Vector} \hyperlink{classfd_vector_aad262df21acfc3b8a6232ac657a9ccaf}{operator$\ast$} (const float \&v)
+\item 
+bool \hyperlink{classfd_vector_ad497efe7871fdca891854d2e45ff462f}{operator==} (const \hyperlink{classfd_vector}{fd\+Vector} \&v)
+\item 
+bool \hyperlink{classfd_vector_a8f600bd376c906ccb61143e82c8c92a6}{operator!=} (const \hyperlink{classfd_vector}{fd\+Vector} \&v)
+\begin{DoxyCompactList}\small\item\em = opperator override \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{classfd_vector_a308672d043f9518b2c607e8b839ed476}{fd\+Vctr} \mbox{[}4\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 7 of file td\+Math\+Lib\+New.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classfd_vector_ae193285f8bf5e0243f4cbdaca41f8e07}{}\label{classfd_vector_ae193285f8bf5e0243f4cbdaca41f8e07} 
+\index{fd\+Vector@{fd\+Vector}!fd\+Vector@{fd\+Vector}}
+\index{fd\+Vector@{fd\+Vector}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{fd\+Vector()}{fdVector()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily fd\+Vector\+::fd\+Vector (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 14 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_a1223fe25ab0e876d0bedf51a4c8d4ede}{}\label{classfd_vector_a1223fe25ab0e876d0bedf51a4c8d4ede} 
+\index{fd\+Vector@{fd\+Vector}!fd\+Vector@{fd\+Vector}}
+\index{fd\+Vector@{fd\+Vector}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{fd\+Vector()}{fdVector()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily fd\+Vector\+::fd\+Vector (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{float}]{z }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 19 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_a8e96515d4ae35ed6c51f5e4c930c20a9}{}\label{classfd_vector_a8e96515d4ae35ed6c51f5e4c930c20a9} 
+\index{fd\+Vector@{fd\+Vector}!fd\+Vector@{fd\+Vector}}
+\index{fd\+Vector@{fd\+Vector}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{fd\+Vector()}{fdVector()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily fd\+Vector\+::fd\+Vector (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{float}]{z,  }\item[{float}]{w }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 24 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_a738c19c1aa5328b8a6f5c62abbc9b134}{}\label{classfd_vector_a738c19c1aa5328b8a6f5c62abbc9b134} 
+\index{fd\+Vector@{fd\+Vector}!fd\+Vector@{fd\+Vector}}
+\index{fd\+Vector@{fd\+Vector}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{fd\+Vector()}{fdVector()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily fd\+Vector\+::fd\+Vector (\begin{DoxyParamCaption}\item[{const \hyperlink{classfd_vector}{fd\+Vector} \&}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 29 of file td\+Math\+Lib\+New.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classfd_vector_a1b4b5c5a72a619525b6f2e737f56a32d}{}\label{classfd_vector_a1b4b5c5a72a619525b6f2e737f56a32d} 
+\index{fd\+Vector@{fd\+Vector}!add@{add}}
+\index{add@{add}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily \hyperlink{classfd_vector}{fd\+Vector} fd\+Vector\+::add (\begin{DoxyParamCaption}\item[{\hyperlink{classfd_vector}{fd\+Vector}}]{addV }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 100 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_abc99ed1ae023f50e3ef820ea22aa9eb1}{}\label{classfd_vector_abc99ed1ae023f50e3ef820ea22aa9eb1} 
+\index{fd\+Vector@{fd\+Vector}!dot@{dot}}
+\index{dot@{dot}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{dot()}{dot()}}
+{\footnotesize\ttfamily float fd\+Vector\+::dot (\begin{DoxyParamCaption}\item[{\hyperlink{classfd_vector}{fd\+Vector}}]{dotV }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 119 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_a860bf648b8f3c0ad6156cd28eb60c952}{}\label{classfd_vector_a860bf648b8f3c0ad6156cd28eb60c952} 
+\index{fd\+Vector@{fd\+Vector}!equalV@{equalV}}
+\index{equalV@{equalV}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{equal\+V()}{equalV()}}
+{\footnotesize\ttfamily bool fd\+Vector\+::equalV (\begin{DoxyParamCaption}\item[{\hyperlink{classfd_vector}{fd\+Vector}}]{compV }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 142 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_adceaf088e11b897bcd45dbb405b50c71}{}\label{classfd_vector_adceaf088e11b897bcd45dbb405b50c71} 
+\index{fd\+Vector@{fd\+Vector}!get\+\_\+\+Vector@{get\+\_\+\+Vector}}
+\index{get\+\_\+\+Vector@{get\+\_\+\+Vector}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{get\+\_\+\+Vector()}{get\_Vector()}}
+{\footnotesize\ttfamily string fd\+Vector\+::get\+\_\+\+Vector (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 70 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_a485db25930d37bead80a7e655b7b5767}{}\label{classfd_vector_a485db25930d37bead80a7e655b7b5767} 
+\index{fd\+Vector@{fd\+Vector}!get\+\_\+W@{get\+\_\+W}}
+\index{get\+\_\+W@{get\+\_\+W}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{get\+\_\+\+W()}{get\_W()}}
+{\footnotesize\ttfamily float fd\+Vector\+::get\+\_\+W (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 95 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_ad1cd812db0a8076ec4fa135d12695e96}{}\label{classfd_vector_ad1cd812db0a8076ec4fa135d12695e96} 
+\index{fd\+Vector@{fd\+Vector}!get\+\_\+X@{get\+\_\+X}}
+\index{get\+\_\+X@{get\+\_\+X}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{get\+\_\+\+X()}{get\_X()}}
+{\footnotesize\ttfamily float fd\+Vector\+::get\+\_\+X (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 80 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_af0d8177ae244369991268b35afcbac9e}{}\label{classfd_vector_af0d8177ae244369991268b35afcbac9e} 
+\index{fd\+Vector@{fd\+Vector}!get\+\_\+Y@{get\+\_\+Y}}
+\index{get\+\_\+Y@{get\+\_\+Y}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{get\+\_\+\+Y()}{get\_Y()}}
+{\footnotesize\ttfamily float fd\+Vector\+::get\+\_\+Y (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 85 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_afe07c9988db316dcc52e1115f82814dd}{}\label{classfd_vector_afe07c9988db316dcc52e1115f82814dd} 
+\index{fd\+Vector@{fd\+Vector}!get\+\_\+Z@{get\+\_\+Z}}
+\index{get\+\_\+Z@{get\+\_\+Z}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{get\+\_\+\+Z()}{get\_Z()}}
+{\footnotesize\ttfamily float fd\+Vector\+::get\+\_\+Z (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 90 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_aa87e134a74c0aedc1ce1b132b577702a}{}\label{classfd_vector_aa87e134a74c0aedc1ce1b132b577702a} 
+\index{fd\+Vector@{fd\+Vector}!length@{length}}
+\index{length@{length}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{length()}{length()}}
+{\footnotesize\ttfamily float fd\+Vector\+::length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 126 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_af4c862ad62c5f1bd67d0fe808505e5c4}{}\label{classfd_vector_af4c862ad62c5f1bd67d0fe808505e5c4} 
+\index{fd\+Vector@{fd\+Vector}!normalize@{normalize}}
+\index{normalize@{normalize}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{normalize()}{normalize()}}
+{\footnotesize\ttfamily \hyperlink{classfd_vector}{fd\+Vector} fd\+Vector\+::normalize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 132 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_a8f600bd376c906ccb61143e82c8c92a6}{}\label{classfd_vector_a8f600bd376c906ccb61143e82c8c92a6} 
+\index{fd\+Vector@{fd\+Vector}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily bool fd\+Vector\+::operator!= (\begin{DoxyParamCaption}\item[{const \hyperlink{classfd_vector}{fd\+Vector} \&}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+= opperator override 
+
+
+
+Definition at line 193 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_ac139bb822f7ffbfbcb0391d1fe88387e}{}\label{classfd_vector_ac139bb822f7ffbfbcb0391d1fe88387e} 
+\index{fd\+Vector@{fd\+Vector}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily float fd\+Vector\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \hyperlink{classfd_vector}{fd\+Vector} \&}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 171 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_aad262df21acfc3b8a6232ac657a9ccaf}{}\label{classfd_vector_aad262df21acfc3b8a6232ac657a9ccaf} 
+\index{fd\+Vector@{fd\+Vector}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \hyperlink{classfd_vector}{fd\+Vector} fd\+Vector\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const float \&}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 176 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_ad7efb00d2b8d61e54f1feb316bed83dc}{}\label{classfd_vector_ad7efb00d2b8d61e54f1feb316bed83dc} 
+\index{fd\+Vector@{fd\+Vector}!operator+@{operator+}}
+\index{operator+@{operator+}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \hyperlink{classfd_vector}{fd\+Vector} fd\+Vector\+::operator+ (\begin{DoxyParamCaption}\item[{const \hyperlink{classfd_vector}{fd\+Vector} \&}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 153 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_a56bd82af8de4d77c772353ddafc3aa84}{}\label{classfd_vector_a56bd82af8de4d77c772353ddafc3aa84} 
+\index{fd\+Vector@{fd\+Vector}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily \hyperlink{classfd_vector}{fd\+Vector} fd\+Vector\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \hyperlink{classfd_vector}{fd\+Vector} \&}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 159 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_ad77d444cdd3c76f98b6c51e2bb2d4737}{}\label{classfd_vector_ad77d444cdd3c76f98b6c51e2bb2d4737} 
+\index{fd\+Vector@{fd\+Vector}!operator=@{operator=}}
+\index{operator=@{operator=}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \hyperlink{classfd_vector}{fd\+Vector}\& fd\+Vector\+::operator= (\begin{DoxyParamCaption}\item[{const \hyperlink{classfd_vector}{fd\+Vector}}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 165 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_ad497efe7871fdca891854d2e45ff462f}{}\label{classfd_vector_ad497efe7871fdca891854d2e45ff462f} 
+\index{fd\+Vector@{fd\+Vector}!operator==@{operator==}}
+\index{operator==@{operator==}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool fd\+Vector\+::operator== (\begin{DoxyParamCaption}\item[{const \hyperlink{classfd_vector}{fd\+Vector} \&}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 183 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_ae72b4bb9c74c1253854a222b34760ece}{}\label{classfd_vector_ae72b4bb9c74c1253854a222b34760ece} 
+\index{fd\+Vector@{fd\+Vector}!set\+\_\+\+Vector@{set\+\_\+\+Vector}}
+\index{set\+\_\+\+Vector@{set\+\_\+\+Vector}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{set\+\_\+\+Vector()}{set\_Vector()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void fd\+Vector\+::set\+\_\+\+Vector (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{float}]{z,  }\item[{float}]{w }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 34 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_abfb903efd118f8e79eefa6a3563e108f}{}\label{classfd_vector_abfb903efd118f8e79eefa6a3563e108f} 
+\index{fd\+Vector@{fd\+Vector}!set\+\_\+\+Vector@{set\+\_\+\+Vector}}
+\index{set\+\_\+\+Vector@{set\+\_\+\+Vector}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{set\+\_\+\+Vector()}{set\_Vector()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void fd\+Vector\+::set\+\_\+\+Vector (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{float}]{z }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 42 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_a700e29b9a1e0a872bbb1c41480522962}{}\label{classfd_vector_a700e29b9a1e0a872bbb1c41480522962} 
+\index{fd\+Vector@{fd\+Vector}!set\+\_\+W@{set\+\_\+W}}
+\index{set\+\_\+W@{set\+\_\+W}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{set\+\_\+\+W()}{set\_W()}}
+{\footnotesize\ttfamily void fd\+Vector\+::set\+\_\+W (\begin{DoxyParamCaption}\item[{float}]{w }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 65 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_a96a3763b89af618c024743dc9e681b12}{}\label{classfd_vector_a96a3763b89af618c024743dc9e681b12} 
+\index{fd\+Vector@{fd\+Vector}!set\+\_\+X@{set\+\_\+X}}
+\index{set\+\_\+X@{set\+\_\+X}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{set\+\_\+\+X()}{set\_X()}}
+{\footnotesize\ttfamily void fd\+Vector\+::set\+\_\+X (\begin{DoxyParamCaption}\item[{float}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 49 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_a8002af4ee4ec47da912555488528679c}{}\label{classfd_vector_a8002af4ee4ec47da912555488528679c} 
+\index{fd\+Vector@{fd\+Vector}!set\+\_\+Y@{set\+\_\+Y}}
+\index{set\+\_\+Y@{set\+\_\+Y}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{set\+\_\+\+Y()}{set\_Y()}}
+{\footnotesize\ttfamily void fd\+Vector\+::set\+\_\+Y (\begin{DoxyParamCaption}\item[{float}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 55 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_a058f0e9306b534430b12fd692f6b0345}{}\label{classfd_vector_a058f0e9306b534430b12fd692f6b0345} 
+\index{fd\+Vector@{fd\+Vector}!set\+\_\+Z@{set\+\_\+Z}}
+\index{set\+\_\+Z@{set\+\_\+Z}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{set\+\_\+\+Z()}{set\_Z()}}
+{\footnotesize\ttfamily void fd\+Vector\+::set\+\_\+Z (\begin{DoxyParamCaption}\item[{float}]{z }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 60 of file td\+Math\+Lib\+New.\+h.
+
+\hypertarget{classfd_vector_a93366497e312aa48a3e68cbab7996e7e}{}\label{classfd_vector_a93366497e312aa48a3e68cbab7996e7e} 
+\index{fd\+Vector@{fd\+Vector}!sub@{sub}}
+\index{sub@{sub}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{sub()}{sub()}}
+{\footnotesize\ttfamily \hyperlink{classfd_vector}{fd\+Vector} fd\+Vector\+::sub (\begin{DoxyParamCaption}\item[{\hyperlink{classfd_vector}{fd\+Vector}}]{subV }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 109 of file td\+Math\+Lib\+New.\+h.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classfd_vector_a308672d043f9518b2c607e8b839ed476}{}\label{classfd_vector_a308672d043f9518b2c607e8b839ed476} 
+\index{fd\+Vector@{fd\+Vector}!fd\+Vctr@{fd\+Vctr}}
+\index{fd\+Vctr@{fd\+Vctr}!fd\+Vector@{fd\+Vector}}
+\subsubsection{\texorpdfstring{fd\+Vctr}{fdVctr}}
+{\footnotesize\ttfamily float fd\+Vector\+::fd\+Vctr\mbox{[}4\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 10 of file td\+Math\+Lib\+New.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+G\+D15/wilenn-\/5/\+S0006\+E/lab-\/env-\/master/projects/\+Mathlib/code/\hyperlink{td_math_lib_new_8h}{td\+Math\+Lib\+New.\+h}\end{DoxyCompactItemize}
